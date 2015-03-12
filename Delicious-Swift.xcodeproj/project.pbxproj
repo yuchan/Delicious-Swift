@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701D3D3C1AB12A5100B535A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3D3B1AB12A5100B535A6 /* AppDelegate.swift */; };
+		701D3D3E1AB12A5100B535A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3D3D1AB12A5100B535A6 /* ViewController.swift */; };
+		701D3D411AB12A5100B535A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701D3D3F1AB12A5100B535A6 /* Main.storyboard */; };
+		701D3D431AB12A5100B535A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701D3D421AB12A5100B535A6 /* Images.xcassets */; };
+		701D3D461AB12A5100B535A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701D3D441AB12A5100B535A6 /* LaunchScreen.xib */; };
+		701D3D521AB12A5100B535A6 /* Delicious_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3D511AB12A5100B535A6 /* Delicious_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		701D3D4C1AB12A5100B535A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701D3D2E1AB12A5100B535A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701D3D351AB12A5100B535A6;
+			remoteInfo = "Delicious-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		701D3D361AB12A5100B535A6 /* Delicious-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delicious-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D3D3A1AB12A5100B535A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D3D3B1AB12A5100B535A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		701D3D3D1AB12A5100B535A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701D3D401AB12A5100B535A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		701D3D421AB12A5100B535A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		701D3D451AB12A5100B535A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		701D3D4B1AB12A5100B535A6 /* Delicious-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delicious-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D3D501AB12A5100B535A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D3D511AB12A5100B535A6 /* Delicious_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delicious_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701D3D331AB12A5100B535A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D3D481AB12A5100B535A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		701D3D2D1AB12A5100B535A6 = {
+			isa = PBXGroup;
+			children = (
+				701D3D381AB12A5100B535A6 /* Delicious-Swift */,
+				701D3D4E1AB12A5100B535A6 /* Delicious-SwiftTests */,
+				701D3D371AB12A5100B535A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		701D3D371AB12A5100B535A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D361AB12A5100B535A6 /* Delicious-Swift.app */,
+				701D3D4B1AB12A5100B535A6 /* Delicious-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701D3D381AB12A5100B535A6 /* Delicious-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D3B1AB12A5100B535A6 /* AppDelegate.swift */,
+				701D3D3D1AB12A5100B535A6 /* ViewController.swift */,
+				701D3D3F1AB12A5100B535A6 /* Main.storyboard */,
+				701D3D421AB12A5100B535A6 /* Images.xcassets */,
+				701D3D441AB12A5100B535A6 /* LaunchScreen.xib */,
+				701D3D391AB12A5100B535A6 /* Supporting Files */,
+			);
+			path = "Delicious-Swift";
+			sourceTree = "<group>";
+		};
+		701D3D391AB12A5100B535A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D3A1AB12A5100B535A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		701D3D4E1AB12A5100B535A6 /* Delicious-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D511AB12A5100B535A6 /* Delicious_SwiftTests.swift */,
+				701D3D4F1AB12A5100B535A6 /* Supporting Files */,
+			);
+			path = "Delicious-SwiftTests";
+			sourceTree = "<group>";
+		};
+		701D3D4F1AB12A5100B535A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D501AB12A5100B535A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701D3D351AB12A5100B535A6 /* Delicious-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701D3D551AB12A5100B535A6 /* Build configuration list for PBXNativeTarget "Delicious-Swift" */;
+			buildPhases = (
+				701D3D321AB12A5100B535A6 /* Sources */,
+				701D3D331AB12A5100B535A6 /* Frameworks */,
+				701D3D341AB12A5100B535A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delicious-Swift";
+			productName = "Delicious-Swift";
+			productReference = 701D3D361AB12A5100B535A6 /* Delicious-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		701D3D4A1AB12A5100B535A6 /* Delicious-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701D3D581AB12A5100B535A6 /* Build configuration list for PBXNativeTarget "Delicious-SwiftTests" */;
+			buildPhases = (
+				701D3D471AB12A5100B535A6 /* Sources */,
+				701D3D481AB12A5100B535A6 /* Frameworks */,
+				701D3D491AB12A5100B535A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701D3D4D1AB12A5100B535A6 /* PBXTargetDependency */,
+			);
+			name = "Delicious-SwiftTests";
+			productName = "Delicious-SwiftTests";
+			productReference = 701D3D4B1AB12A5100B535A6 /* Delicious-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701D3D2E1AB12A5100B535A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yusuke Ohashi";
+				TargetAttributes = {
+					701D3D351AB12A5100B535A6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					701D3D4A1AB12A5100B535A6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 701D3D351AB12A5100B535A6;
+					};
+				};
+			};
+			buildConfigurationList = 701D3D311AB12A5100B535A6 /* Build configuration list for PBXProject "Delicious-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 701D3D2D1AB12A5100B535A6;
+			productRefGroup = 701D3D371AB12A5100B535A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701D3D351AB12A5100B535A6 /* Delicious-Swift */,
+				701D3D4A1AB12A5100B535A6 /* Delicious-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701D3D341AB12A5100B535A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D3D411AB12A5100B535A6 /* Main.storyboard in Resources */,
+				701D3D461AB12A5100B535A6 /* LaunchScreen.xib in Resources */,
+				701D3D431AB12A5100B535A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D3D491AB12A5100B535A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701D3D321AB12A5100B535A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D3D3E1AB12A5100B535A6 /* ViewController.swift in Sources */,
+				701D3D3C1AB12A5100B535A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D3D471AB12A5100B535A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D3D521AB12A5100B535A6 /* Delicious_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		701D3D4D1AB12A5100B535A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701D3D351AB12A5100B535A6 /* Delicious-Swift */;
+			targetProxy = 701D3D4C1AB12A5100B535A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		701D3D3F1AB12A5100B535A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701D3D401AB12A5100B535A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		701D3D441AB12A5100B535A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701D3D451AB12A5100B535A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701D3D531AB12A5100B535A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701D3D541AB12A5100B535A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701D3D561AB12A5100B535A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Delicious-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		701D3D571AB12A5100B535A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Delicious-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		701D3D591AB12A5100B535A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Delicious-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delicious-Swift.app/Delicious-Swift";
+			};
+			name = Debug;
+		};
+		701D3D5A1AB12A5100B535A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Delicious-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delicious-Swift.app/Delicious-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701D3D311AB12A5100B535A6 /* Build configuration list for PBXProject "Delicious-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D3D531AB12A5100B535A6 /* Debug */,
+				701D3D541AB12A5100B535A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701D3D551AB12A5100B535A6 /* Build configuration list for PBXNativeTarget "Delicious-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D3D561AB12A5100B535A6 /* Debug */,
+				701D3D571AB12A5100B535A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		701D3D581AB12A5100B535A6 /* Build configuration list for PBXNativeTarget "Delicious-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D3D591AB12A5100B535A6 /* Debug */,
+				701D3D5A1AB12A5100B535A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701D3D2E1AB12A5100B535A6 /* Project object */;
+}
