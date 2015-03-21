@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        DeliciousClient.setup("YOUR CLIENT ID", client_secret: "YOUR CLIENT SECRET")
+        let cli: DeliciousClient = DeliciousClient.sharedInstance
+        cli.sayHello()
     }
 
     override func didReceiveMemoryWarning() {

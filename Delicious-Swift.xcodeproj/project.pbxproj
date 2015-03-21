@@ -13,6 +13,7 @@
 		701D3D431AB12A5100B535A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701D3D421AB12A5100B535A6 /* Images.xcassets */; };
 		701D3D461AB12A5100B535A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701D3D441AB12A5100B535A6 /* LaunchScreen.xib */; };
 		701D3D521AB12A5100B535A6 /* Delicious_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3D511AB12A5100B535A6 /* Delicious_SwiftTests.swift */; };
+		701D3D5D1AB12AC300B535A6 /* DeliciousClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3D5C1AB12AC300B535A6 /* DeliciousClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		701D3D4B1AB12A5100B535A6 /* Delicious-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delicious-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		701D3D501AB12A5100B535A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701D3D511AB12A5100B535A6 /* Delicious_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delicious_SwiftTests.swift; sourceTree = "<group>"; };
+		701D3D5C1AB12AC300B535A6 /* DeliciousClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliciousClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		701D3D2D1AB12A5100B535A6 = {
 			isa = PBXGroup;
 			children = (
+				701D3D5B1AB12AB400B535A6 /* Delicious */,
 				701D3D381AB12A5100B535A6 /* Delicious-Swift */,
 				701D3D4E1AB12A5100B535A6 /* Delicious-SwiftTests */,
 				701D3D371AB12A5100B535A6 /* Products */,
@@ -110,6 +113,14 @@
 				701D3D501AB12A5100B535A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		701D3D5B1AB12AB400B535A6 /* Delicious */ = {
+			isa = PBXGroup;
+			children = (
+				701D3D5C1AB12AC300B535A6 /* DeliciousClient.swift */,
+			);
+			path = Delicious;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				701D3D3E1AB12A5100B535A6 /* ViewController.swift in Sources */,
+				701D3D5D1AB12AC300B535A6 /* DeliciousClient.swift in Sources */,
 				701D3D3C1AB12A5100B535A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Delicious-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Delicious-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
